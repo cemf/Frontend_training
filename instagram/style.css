@@ -46,5 +46,24 @@ body .instagram-whapper .instagram-continue .group {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  color: blue;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+body .instagram-whapper .instagram-continue .group .profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .instagram-whapper .instagram-continue .group .profile-photo img {
+  height: 6rem;
+}
+body .instagram-whapper .instagram-continue .group .instagram-logo {
+  height: 3rem;
+}
+body .instagram-whapper .instagram-continue .group:nth-child(1) {
+  min-width: 19rem;
 }
