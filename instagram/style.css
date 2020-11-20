@@ -14,6 +14,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  /* media queries */
 }
 body .instagram-whapper {
   display: flex;
@@ -51,6 +52,9 @@ body .instagram-whapper .instagram-continue .group {
   padding: 1.3rem 0;
   border: 1px solid lightgray;
 }
+body .instagram-whapper .instagram-continue .group .instagram-logo {
+  height: 3rem;
+}
 body .instagram-whapper .instagram-continue .group .profile-photo {
   display: flex;
   justify-content: center;
@@ -61,9 +65,70 @@ body .instagram-whapper .instagram-continue .group .profile-photo {
 body .instagram-whapper .instagram-continue .group .profile-photo img {
   height: 6rem;
 }
-body .instagram-whapper .instagram-continue .group .instagram-logo {
-  height: 3rem;
+body .instagram-whapper .instagram-continue .group .instagram-login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+body .instagram-whapper .instagram-continue .group .instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+body .instagram-whapper .instagram-continue .group .not-acount {
+  color: rbg(160, 160, 160);
+}
+body .instagram-whapper .instagram-continue .group .link-blue {
+  color: #0095f6;
 }
 body .instagram-whapper .instagram-continue .group:nth-child(1) {
   min-width: 19rem;
+}
+body .instagram-whapper .instagram-continue .get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+body .instagram-whapper .instagram-continue .get-the-app .download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+body .instagram-whapper .instagram-continue .get-the-app .download .app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+body .instagram-whapper .instagram-continue .get-the-app .download .app-download:nth-child(1) {
+  background-image: url("img/apple-button.jpg");
+}
+body .instagram-whapper .instagram-continue .get-the-app .download .app-download:nth-child(2) {
+  background-image: url("img/googleplay-button.png");
+}
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+  .instagram-wrapper {
+    width: 90%;
+  }
+  .instagram-phone {
+    display: none;
+  }
+  .instagram-continue {
+    width: 100%;
+  }
+  .group {
+    border: 1px solid transparent;
+  }
 }
