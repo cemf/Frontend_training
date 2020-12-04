@@ -1,4 +1,5 @@
-# paginas_css
+# Frondend training 
 
-Reproduçao de algumas paginas para treinar 
-Todos os projetos se utilizam de Less.js como complementaçao
+Here I practice Frontend replicating web pages
+On most of this projects I use boostrap 4 and less.js 
+
