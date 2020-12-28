@@ -1,0 +1,45 @@
+:root{
+    --vermelho:#eb1d16bb;
+    --preta:#141414;
+}
+//could use @varname:collor;
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    header{
+        .container{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: center ;
+            justify-content: space-between;
+            .logo{
+                margin-left: 10px;
+                color: var(--vermelho);
+                font-family: "Arial Black", Times;
+                font-size: 40px;
+            }
+            nav {
+                a{
+                    text-decoration: none;
+                    color:#AAA;
+                    margin-right: 10px;
+                    &:hover{
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
