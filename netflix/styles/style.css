@@ -10,6 +10,7 @@
 body {
   background: var(--preta);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 body header .container {
   border: 1px solid black;
@@ -31,4 +32,10 @@ body header .container nav a {
 }
 body header .container nav a:hover {
   color: #fff;
+}
+body .filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../img/house-of-cards-fundo.jpg');
+  background-size: cover;
+  height: 400px;
 }
