@@ -7,7 +7,12 @@
       }
 
     .filme-principal .container .botao {
-        margin-top: 5px;
-
+        margin-top: 10px;
+        width: 220px;
+    }
+}
+@media screen and (min-width:1000px){
+    .filme-principal .container .descricao {
+        width: 50%;
     }
 }

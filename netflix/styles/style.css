@@ -79,3 +79,6 @@ header .container nav a:hover {
   width: 100%;
   display: block;
 }
+.carrosel-filmes {
+  margin-top: 15px;
+}
